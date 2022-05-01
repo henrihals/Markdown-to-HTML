@@ -3,20 +3,21 @@
 	<head>
 		<title>Fiche personnelle</title>
 		<meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css"/>
 	</head>
 	<body>
 		<header>
 		<h1>Henri Hals</h1>
-		<p>Fais de ta vie un rêve, et d'un rêve, une réalité (mettre en italique)</p>
+		<p>Fais de ta vie un rêve, et d'un rêve, une réalité</p>
 		</header>
-		<img src="https://github.com/henrihals/markdown-challenge/blob/main/Voyage.jpg?raw=true" width=200/>
+		<img src="https://cdn.pixabay.com/photo/2018/12/01/19/36/snowman-3850069_960_720.jpg" width=200/>
 		<h2>Le but du jeu pour moi, c'est de rester vivant malgré la mort.</h2>
 		<article>
 		<section>
-		<table style="width: 10%; border-collapse: collapse;" border="1" cellpadding="2">
+		<table style="width: 100%;" border="1" cellpadding="2">
 			<tr>
-				<td>Question</td>
-				<td>Réponse</td>
+				<td class="bold">Question</td>
+				<td class="bold">Réponse</td>
 				<td></td>
 			</tr>
 			<tr>
@@ -64,7 +65,7 @@
 		</section>
 		</article>
 		<footer>
-		<a href="https://github.com/Mirodeon/markdown-challenge/blob/main/README.md">Précédent</A>   Henri Hals   <a href="https://github.com/Saphido/markdown-challenge/blob/main/README.md">Suivant</a>
+		<a href="https://github.com/Mirodeon/markdown-challenge/blob/main/README.md">Précédent</A>      Henri Hals      <a href="https://github.com/Saphido/markdown-challenge/blob/main/README.md">Suivant</a>
 		</footer>
 	</body>
 </html>
